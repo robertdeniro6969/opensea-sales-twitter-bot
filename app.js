@@ -20,7 +20,7 @@ function formatAndSendTweet(event) {
             : ` ${tokenSymbol}`
     );
 
-    const tweetText = `${tokenName} bought for ${formattedTokenPrice}${formattedPriceSymbol} ($${formattedUsdPrice}) #NFTs ${openseaLink}`;
+    const tweetText = `${tokenName} was bought by a dumb person for ${formattedTokenPrice}${formattedPriceSymbol} ($${formattedUsdPrice}) #NFTs ${openseaLink}`;
 
     console.log(tweetText);
 
